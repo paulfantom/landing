@@ -1,0 +1,47 @@
+baseURL = "https://pawel.krupa.net.pl/"
+languageCode = "en-us"
+#title = "Paweł Krupa"
+title = "paulfantom"
+
+# https://github.com/luizdepra/hugo-coder/wiki/Configurations#complete-example
+theme = "hugo-coder"
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Paweł Krupa"
+  info = "Observability-focused Software Engineer and Adrenaline Seeker drinking too much tea"
+  description = "Paweł Krupa's personal website"
+  keywords = "developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/paulfantom/"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 2
+  url = "https://twitter.com/paulfantom/"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
