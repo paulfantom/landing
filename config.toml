@@ -12,7 +12,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   author = "Paweł Krupa"
-  info = "Observability-focused Software Engineer and Adrenaline Seeker drinking too much tea"
+  info = "Observability-focused Software Engineer and OpenSource enthusiast drinking too much tea"
   description = "Paweł Krupa's personal website"
   keywords = "developer,personal"
   avatarurl = "images/avatar.jpg"
